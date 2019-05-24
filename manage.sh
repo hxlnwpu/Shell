@@ -11,5 +11,5 @@ do
         python3 ./mail.py $mail "$ip down" "$ip is down,plese check."#假设mail.py已经编写好了
     fi
     echo "one step"
-    sleep 30
+    sleep 30  #每隔30秒
 done
